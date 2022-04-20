@@ -1,5 +1,51 @@
-.App {
-  text-align: center;
+.App ol {
+  min-width: 400px;
+}
+
+.App ol li {
+  min-width: 400px;
+  display: flex;
+  flex-flow: row nowrap;
+  background-color: rgba(255,255,255,0.1);
+}
+
+.App ol li:nth-child(2n+1) {
+  background-color: rgba(255,255,255, 0.05);
+}
+
+.App ol li span {
+  flex: 1 0 auto;
+}
+
+.App-inputs {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.App-inputs button {
+  flex: 0 0 auto;
+  appearance: none;
+  border: 1px solid #EEE;
+  background-color: #FFF;
+  font-size: 24px;
+  padding: 10px;
+  width: 48px;
+}
+
+.App-inputs input {
+  border: 1px #EEE solid;
+  appearance: none;
+  outline: none;
+  font-size: 24px;
+  padding: 10px;
+  border-right: none;
+}
+
+.App-tick {
+  appearance: none;
+  background: transparent;
+  border: none;
+  font-size: 24px;
 }
 
 .App-logo {
@@ -14,12 +60,13 @@
 }
 
 .App-header {
+  padding-top: 2vh;
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   font-size: calc(10px + 2vmin);
   color: white;
 }
