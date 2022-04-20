@@ -1,5 +1,6 @@
 .App ol {
   min-width: 400px;
+  counter-reset: list-counter;
 }
 
 .App ol li {
@@ -7,6 +8,12 @@
   display: flex;
   flex-flow: row nowrap;
   background-color: rgba(255,255,255,0.1);
+  counter-increment: list-counter;
+}
+
+.App ol li::before {
+  content: counter(list-counter) ".  ";
+  margin-right: 12px;
 }
 
 .App ol li:nth-child(2n+1) {
