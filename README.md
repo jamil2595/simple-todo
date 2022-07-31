@@ -1,3 +1,21 @@
+# E2E tests for Todo app
+
+UI tests for Todo app is developed via the popular **Cypress**[https://www.cypress.io/] Javascript e2e framework. The tests are accomplished by following best practises and enterprise regulations.
+
+# Steps to execute tests and generate report tool
+
+Navigate to todo folder:
+
+1. `npm install` - to install dependencies
+2. `npm start` - to start application on localhost
+3. `npx cypress open ` - to open Cypress and execute tests. (choose E2E testing ==> choose one of the browsers ==> and click e2e.cy.js file )
+4. `npx cypress run --reporter mochawesome` - to generate nice reporting tool and video by Mocha.
+
+# Detected bug
+
+While doing manual testing, I detected a bug. Therefore, when user puts a text which has more than 100 characters, it will exceed the window screen and user will not be able to submit the task. I put a test sample for that. The execution time for this test will be 17seconds and it will automatically fail and it will be presented in the generated report. The report is located in the **mochawesome-report** folder (copy **mochawesome.html** file in browser). Also, video rerporting tool has a nice feature of capturing video test cases exection. The video is located in the **videos** folder.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

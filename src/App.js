@@ -32,17 +32,18 @@ function App() {
             value={item}
             onChange={e => setItem(e.target.value)}
             onKeyPress={e => handleKeyPress(e)}
+            data-cy="todo-input"
             />
-          <button onClick={e => pushToArray(item)}>+</button>
+          <button data-cy="todo-submit" onClick={e => pushToArray(item)}>+</button>
         </div>
 
         <ol>
           {
             items.map((item, index) => {
               return (
-                <li key={index}>
-                  <span>{item}</span>
-                  <button className="App-tick" onClick={() => removeItemFromList(index)}>✅</button>
+                <li key={index} data-cy="todo-list" >
+                  <span data-cy="todo-added-task">{item}</span>
+                  <button data-cy="todo-complete-task" className="App-tick" onClick={() => removeItemFromList(index)}>✅</button>
                 </li>
               );
             })

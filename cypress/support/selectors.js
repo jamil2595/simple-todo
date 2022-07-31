@@ -1,0 +1,6 @@
+export const inputBox = '[data-cy="todo-input"]'
+export const submitButton = '[data-cy="todo-submit"]'
+export const addTask = 'input'
+export const completeTask = '[data-cy="todo-complete-task"]'
+export const addedTask = '[data-cy="todo-added-task"]'
+export const toDoList = '[data-cy="todo-list"]'
