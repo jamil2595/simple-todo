@@ -13,7 +13,7 @@ Navigate to todo folder:
 
 # Detected bug
 
-While doing manual testing, I detected a bug. Therefore, when user puts a text which has more than 100 characters, it will exceed the window screen and user will not be able to submit the task. I put a test sample for that. The execution time for this test will be 17seconds and it will automatically fail and it will be presented in the generated report. The report is located in the **mochawesome-report** folder (copy **mochawesome.html** file in browser). Also, video rerporting tool has a nice feature of capturing video test cases exection. The video is located in the **videos** folder.
+While doing manual testing, I detected a bug. Therefore, when user puts a text which has more than 100 characters, it will exceed the window screen and user will not be able to submit the task. I put a test sample for that. The execution time for this test will be 17seconds and it will automatically fail and it will be presented in the generated report. The report is located in the **mochawesome-report** folder (copy **mochawesome.html** file in browser). Also, reporting tool has a nice feature of capturing video test cases exection. The video is located in the **videos** folder.
 
 
 # Getting Started with Create React App
