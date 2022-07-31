@@ -1,4 +1,4 @@
-export const firstTask = 'Read documentation anda creat a testing plan'
+export const firstTask = 'Read documentation and creat a testing plan'
 export const secondTask = 'Write e2e tests for the test  task'
 export const thirdTask = 'Get some rest later'
 export const placeHolder = 'Type your todo here...'

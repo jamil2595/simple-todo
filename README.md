@@ -1,6 +1,6 @@
 # E2E tests for Todo app
 
-UI tests for Todo app is developed via the popular **Cypress**[https://www.cypress.io/] Javascript e2e framework. The tests are accomplished by following best practises and enterprise regulations.
+UI tests for Todo app is developed via the popular [Cypress](https://www.cypress.io/) Javascript e2e framework. The tests are accomplished by following best practises and enterprise regulations.
 
 # Steps to execute tests and generate report tool
 
@@ -13,7 +13,7 @@ Navigate to todo folder:
 
 # Detected bug
 
-While doing manual testing, I detected a bug. Therefore, when user puts a text which has more than 100 characters, it will exceed the window screen and user will not be able to submit the task. I put a test sample for that. The execution time for this test will be 17seconds and it will automatically fail and it will be presented in the generated report. The report is located in the **mochawesome-report** folder (copy **mochawesome.html** file in browser). Also, reporting tool has a nice feature of capturing video test cases exection. The video is located in the **videos** folder.
+While doing manual testing, I detected a bug. Therefore, when user puts a text which has more than 100 characters, it will exceed the window screen and user will not be able complete the task. I put a test sample for that. The execution time for this test will be 17seconds and it will automatically fail and it will be presented in the generated report. The report is located in the **mochawesome-report** folder (copy **mochawesome.html** file path and paste in browser). Also, reporting tool has a nice feature of capturing video and screenshots of test cases exection. The video is located in the **videos** folder and captured screenshots located in screenshot folder.
 
 
 # Getting Started with Create React App
